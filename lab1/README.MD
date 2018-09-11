@@ -50,13 +50,16 @@ The Log filed was saved in the directory Documents/Log
 ![alt text](seconddirectory.png "Logo Title Text 1")
 
 ## Exercise 3
-Here a maintenance plan was made  for my first database that shrink the database when 
+Here a maintenance plan was made  for my first database that shrink the database when its size is 2000 Mb. Thereleased space is returned 
+to the operating system. This process starts every friday at 00:00.
 ![alt text](ex3.png "Logo Title Text 1")
+According to our condition the execution report is saved to SQL_Event_Logs folder.
 ![alt text](directories.png "Logo Title Text 1")
 
 ## Exercise 4
+In this exercise a maintenance plan for the second database was made and it used History Cleanup Task and Rebuild Index Task with all the settings as specified in condition: 
 ![alt text](ex4.png "Logo Title Text 1")
-![alt text](folder.png "Logo Title Text 1")
+Reports are saved in the respective physical location shown below.
 ![alt text](reports.png "Logo Title Text 1")
 
 
