@@ -2,7 +2,7 @@
 
 ## Exercise 1(14)
 Display the name and surname of the students, as well as the promoted courses where they get marks higher than 8
-![alt text](results\ex1.png "Logo Title Text 1")
+![alt text](/results/ex1.png "Logo Title Text 1")
 
 ## Exercise 2(25)
 Display the study groups(Cod_Grupa) that consists of more than 24 students
