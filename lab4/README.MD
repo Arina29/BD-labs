@@ -1,4 +1,4 @@
-# Laboratory Work nr.3
+# Laboratory Work nr.4
 
 ## Exercise 1(14)
 Display the name and surname of the students, as well as the promoted courses where they get marks higher than 8 <br/>
