@@ -27,6 +27,5 @@ and if there are less than 10 students, the error is raised.
 
 ## Conclusion
 During this laboratory work, We gain some knowledge in using Transact-SQL, we learned how to use if-else statement, key, while,try-catch,
-raiseerror, etc
-
+raiseror, waitFor, etc
 
