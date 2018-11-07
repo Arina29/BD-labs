@@ -26,5 +26,5 @@ and if there are less than 10 students, the error is raised.
 ![alt text](results/ex4.PNG "Logo Title Text 1")
 
 ## Conclusion
-During this laboratory work, We gain some knowledge in using Transact-SQL, we learned how to use selective structure CASE, alternative structure IF-ELSE, repetitive structure WHILE, how to raisereor andcatch the errors etc. Also we learned how to declare, set and use variables 
+During this laboratory work, We gain some knowledge in using Transact-SQL, we learned how to use selective structure CASE, alternative structure IF-ELSE, repetitive structure WHILE, how to raise errors and catch them etc. Also we learned how to declare, set and use variables.
 
