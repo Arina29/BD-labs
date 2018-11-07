@@ -8,14 +8,14 @@ In this exercise I added to the given piece of code  the corresponding condition
 
 ## Exercise 2
 Display the first 10 students(name and surname), depending on student marks(except the students who have got 6 and 8) at first test at 
-'Data base' discipline using if...else statement. Use variables.
+'Data base' discipline using if...else alternative structure. Use variables.
 In this exercise, I used IIF logical function that evaluates the students marks, so that the tuples where mark is 6 or 8 will be excluded.
 So, knowing that the structure of IIF is : IIF ( boolean_expression, true_value, false_value ), we evaluate all students against their
 marks.
 ![alt text](results/ex2.PNG "Logo Title Text 1")
 
 ## Exercise 3
-Solve the  exercise 1 using CASE.
+Solve the  exercise 1 using selective structure CASE.
 ![alt text](results/ex3.PNG "Logo Title Text 1")
 The result is the same as in exercise 1.
 
@@ -26,6 +26,5 @@ and if there are less than 10 students, the error is raised.
 ![alt text](results/ex4.PNG "Logo Title Text 1")
 
 ## Conclusion
-During this laboratory work, We gain some knowledge in using Transact-SQL, we learned how to use if-else statement, key, while,try-catch,
-raiseror, waitFor, etc
+During this laboratory work, We gain some knowledge in using Transact-SQL, we learned how to use selective structure CASE, alternative structure IF-ELSE, repetitive structure WHILE, how to raisereor andcatch the errors etc. Also we learned how to declare, set and use variables 
 
