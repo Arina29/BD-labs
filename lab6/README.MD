@@ -58,4 +58,6 @@ lectie #3 (Ora ='13:00', Disciplina ='Baze de date', Profesor = 'Micu Elena')
 Write the queries necessary for creating te indexes  on tables from "University" database to ensure a higher performance to the queries from laboratory 
 work number 4. Analyse the results.</br>
 The indexes must be physically placed into **userdatafgroup** file group 
-![alt text](results/ex8.PNG "Logo Title Text 1")
+![alt text](results/withoutIdx.PNG "Logo Title Text 1")
+![alt text](results/index.PNG "Logo Title Text 1")
+
