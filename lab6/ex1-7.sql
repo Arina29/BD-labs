@@ -23,8 +23,8 @@ set Prof_Indrumator = (select top 1 Id_Profesor
 						from studenti_reusita sr
 						where sr.Id_Grupa = grupe.Id_Grupa
 						group by Id_Profesor
-						order by Count(Id_Disciplina) desc, Id_Profesor desc)
-
+						order by Count(Id_Disciplina) desc, Id_Profesor)
+select * from grupe
 ALTER TABLE grupe ADD CONSTRAINT U_Name UNIQUE(Prof_Indrumator)
 
 -----------------------------------Ex4-----------------------------------
