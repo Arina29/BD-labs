@@ -10,10 +10,15 @@ GO
 
 USE University; 
 GO 
-ALTER SCHEMA studenti TRANSFER studenti; 
+ALTER SCHEMA studenti TRANSFER dbo.studenti; 
 GO 
 
 USE University; 
 GO 
-ALTER SCHEMA studenti TRANSFER studenti_reusita; 
+ALTER SCHEMA studenti TRANSFER dbo.studenti_reusita; 
+GO 
+
+USE University; 
+GO 
+ALTER SCHEMA plan_studii TRANSFER dbo.discipline
 GO 
