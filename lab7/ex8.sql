@@ -1,7 +1,7 @@
 Select  Distinct Nume_Student, Prenume_Student, Disciplina
 From studenti.students s1
 join studenti.students_success s2 on s1.Id_Student = s2.Id_Student
-join discipline on s2.Id_Disciplina = discipline.Id_Disciplina
+join plan_studii.S_Discipline d on s2.Id_Disciplina = d.Id_Disciplina
 where Tip_Evaluare = 'Examen' AND Nota > 8 
 
 Select Cod_Grupa
