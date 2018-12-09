@@ -24,7 +24,7 @@ begin catch
 	print concat('Error state = ', error_state())
 end catch
 
-if (select COUNT(Id_Student) from studenti) < 10
+if (select COUNT(Id_Student) from studenti.studenti) < 10
 	begin
 		raiserror('The table contains less than 10 students', 16, 1)
 	end
@@ -36,9 +36,9 @@ else
 		Set @Nota1 = 6;
 		Set @Nota2 = 8;
 		select top 10 Nume_Student, Prenume_Student
-		from studenti
-			join studenti_reusita on studenti.Id_Student = studenti_reusita.Id_Student
-			join discipline on studenti_reusita.Id_Disciplina = discipline.Id_Disciplina
+		from studenti.studenti
+			join studenti.studenti_reusita on studenti.Id_Student = studenti_reusita.Id_Student
+			join plan_studii.discipline on studenti_reusita.Id_Disciplina = discipline.Id_Disciplina
 			Where Disciplina = @disciplina and 
 				  Tip_Evaluare = @evaluarea and 
 				Nota in (iif(Nota <> @Nota1 and Nota <> @Nota2, Nota, null))

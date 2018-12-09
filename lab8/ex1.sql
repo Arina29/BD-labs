@@ -23,7 +23,9 @@ where Tip_Evaluare = 'Examen' AND Nota > 8
 Select * from ex25_View
 
 Use University
-go
+Go
+Drop view if exists dbo.example_View;
+Go 
 Create view example_View as 
 	select Id_Student, Nume_Student,Prenume_Student, Data_Nastere_Student
 	from studenti.studenti
