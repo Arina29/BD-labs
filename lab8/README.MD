@@ -10,6 +10,7 @@ View Designer.
 Write an example of instructions INSERT, UPDATE, DELETE on the created views. Add the necessary comments referring to the results
 of these instructions.
 [alt text](screens/ex2.PNG "Logo Title Text 1")
+<br/>
 [alt text](screens/ex2_1.PNG "Logo Title Text 1")
 
 ## Exercise 3
