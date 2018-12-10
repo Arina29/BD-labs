@@ -9,9 +9,9 @@ View Designer.
 ## Exercise 2
 Write an example of instructions INSERT, UPDATE, DELETE on the created views. Add the necessary comments referring to the results
 of these instructions.
-[alt text](screens/ex2.PNG "Logo Title Text 1")
+![alt text](screens/ex2.PNG "Logo Title Text 1")
 <br/>
-[alt text](screens/ex2_1.PNG "Logo Title Text 1")
+![alt text](screens/ex2_1.PNG "Logo Title Text 1")
 
 ## Exercise 3
 Write SQL instructions which would modify the created views (from exercise 1) so that, the modification or deletion of the tables which 
